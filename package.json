@@ -1,0 +1,14 @@
+{
+    "name": "ozzy-barbers",
+    "version": "1.0.0",
+    "description": "Website for Ozzy's Barbers",
+    "main": "server.js",
+    "scripts": {
+        "start": "py -m http.server 8080"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.19.2"
+    }
+}
